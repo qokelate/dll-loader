@@ -35,3 +35,7 @@ dll-loader.exe -mr libconsole.dll winver.exe
 # 内存方式,加载DLL到内存,然后注入到指定PID,注入后不依赖本地DLL
 dll-loader.exe -mp libconsole.dll 1234
 ```
+
+## 3.特别说明
+
+### 必须同架构注入,即X86注入32位进程, X64注入64位进程
